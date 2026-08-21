@@ -1,0 +1,33 @@
+:root {
+  --bg: #010409;
+  --panel: #071029;
+  --text: #e6edf3;
+  --muted: #94a3b8;
+  --accent: #06b6d4;
+}
+
+html,
+body,
+#__next {
+  height: 100%;
+}
+
+body {
+  margin: 0;
+  background: var(--bg);
+  color: var(--text);
+  font-family: Arial, sans-serif;
+}
+
+main {
+  min-height: 100vh;
+  padding: 40px;
+}
+
+h1 {
+  margin-bottom: 10px;
+}
+
+p {
+  color: var(--muted);
+}
