@@ -1,15 +1,23 @@
 :root {
-  --bg: #010409;
-  --panel: #071029;
-  --text: #e6edf3;
+  --bg: #05070a;
+  --panel: #0b1118;
+  --panel-2: #101923;
+  --text: #f1f5f9;
   --muted: #94a3b8;
   --accent: #06b6d4;
+  --green: #22c55e;
+  --red: #ef4444;
+  --border: #1e293b;
+}
+
+* {
+  box-sizing: border-box;
 }
 
 html,
 body,
 #__next {
-  height: 100%;
+  min-height: 100%;
 }
 
 body {
@@ -21,11 +29,12 @@ body {
 
 main {
   min-height: 100vh;
-  padding: 40px;
+  padding: 30px;
 }
 
 h1 {
-  margin-bottom: 10px;
+  margin: 0 0 10px;
+  font-size: 32px;
 }
 
 p {
